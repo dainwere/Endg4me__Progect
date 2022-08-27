@@ -1,0 +1,142 @@
+@media (max-width: 1366px) {
+    .wrapper {
+        width: 1166px;
+    }
+
+    .header__inner {
+        width: 1166px;
+    }
+
+    .main {
+        grid-template-columns: 214px 600px 320px;
+    }
+
+    .main__linkbar {
+        width: 214px;
+    }
+
+    .main__nowrecs {
+        width: 600px;
+    }
+
+    .main__queue {
+        width: 320px;
+    }
+}
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 768px) {
+    .wrapper {
+        width: none;
+    }
+
+    .header__logo {
+        margin-left: 50px;
+    }
+
+    .header__logo-title {
+        font-size: 36px;
+    }
+
+    .header__nav {
+        margin-left: auto;
+        margin-right: 50px;
+    }
+
+    .nav__link {
+        font-size: 24px;
+        display: none;
+    }
+
+    .nav__sub {
+        font-size: 24px;
+    }
+
+    .burger__icon {
+        display: block;
+        fill: white;
+        transition: 0.2s ease;
+    }
+
+    .banner {
+        display: flex;
+        align-items: center;
+        width: 900px;
+        height: 176px;
+        background-image: url('../img/main/banner.jpg');
+        background-size: cover;
+        margin-bottom: 24px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .main {
+        grid-template-columns: none;
+    }
+    .main__linkbar {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        min-height: 700px;
+        height: auto;
+        border: none;
+    }
+
+    .linkbar__btn {
+        width: 75%;
+        height: 100px;
+    }
+
+
+    .main__nowrecs {
+        display: flex;
+        flex-direction: column;
+        width: 900px;
+        height: auto;
+        border: 2px solid #fff;
+        margin-right: auto;
+        margin-left: auto;
+        border: none;
+    }
+
+    .nowrecs__inner {
+        display: flex;
+        width: 900px;
+        min-height: auto;
+        flex-direction: column;
+        margin: 16px;
+    }
+
+    .nowrecs__sign {
+        font-size: 32px;
+        min-width: 200px;
+    }
+
+    .nowrecs__img {
+        height: 450px;
+    }
+
+    .nowrecs__title {
+        color: #fff;
+        font-size: 32px;
+        font-weight: 700;
+        margin-bottom: 4px;
+        margin-top: 10px;
+    }
+
+    .nowrecs__description {
+        color: #fff;
+        font-size: 24px;
+        font-weight: 700;
+        font-style: italic;
+    }
+    
+
+    .main__queue {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        border: none;
+    }
+}

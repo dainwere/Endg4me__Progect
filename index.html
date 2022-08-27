@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Кодировка-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Название-->
+    <title>BogdanHXC</title>
+    <!--Подключение CSS-->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!--Подключение шрифтов-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        
+        <header class="header">
+            <div class="header__inner">
+                <div class="header__logo">
+                    <img class="header__logo-img" src="img/header/logo.png" alt="">
+                    <span class="header__logo-title">BogdanHXC</span>
+                </div>
+                <nav class="header__nav">
+                    <a href="" class="nav__link nav__active">Songlist</a>
+                    <a href="" class="nav__link">Help</a>
+                    <button class="nav__sub">Subscribe</button>
+                    <a class="burger__icon">
+                        <svg height="32px" id="Layer_1" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/></svg>
+                    </a>
+                </nav>
+                <div class="burger__menu">
+                    <a href="" class="burger__link nav__active">Songlist</a>
+                    <a href="" class="burger__link">Help</a>
+                </div>
+            </div>
+        </header>
+
+        <div class="banner">
+            <img class="banner__avatar" src="img/main/avatar.png" alt="">
+        </div>
+
+        <main class="main">
+
+            <div class="main__linkbar">
+                
+                <button id="youtube" class="linkbar__btn"> 
+                    <img class="linkbar__btn-img" src="img/main/social/youtube.png" alt="">
+                    <span class="linkbar__btn-title">Youtube</span>
+                </button>
+                <button id="twitch" class="linkbar__btn"> 
+                    <img class="linkbar__btn-img" src="img/main/social/twitch.png" alt="">
+                    <span class="linkbar__btn-title">Twitch</span>
+                </button>
+                <button id="patreon" class="linkbar__btn"> 
+                    <img class="linkbar__btn-img" src="img/main/social/patreon.png" alt="">
+                    <span class="linkbar__btn-title">Patreon</span>
+                </button>
+                <button id="instagram" class="linkbar__btn"> 
+                    <img class="linkbar__btn-img" src="img/main/social/instagram.png" alt="">
+                    <span class="linkbar__btn-title">Instagram</span>
+                </button>
+                <button id="twitter" class="linkbar__btn"> 
+                    <img class="linkbar__btn-img" src="img/main/social/twitter.png" alt="">
+                    <span class="linkbar__btn-title">Twitter</span>
+                </button>
+
+            </div>
+
+            <div class="main__nowrecs">
+                <div class="nowrecs__inner">
+                    <span class="nowrecs__sign">Now Playing</span>
+                    <img class="nowrecs__img" src="img/main/nowplaying.jpg" alt="">
+                    <span class="nowrecs__title">Electric Callboy - HURRIKAN (OFFICIAL VIDEO starring @Mia Julia)</span>
+                    <span class="nowrecs__description">Electric Callboy</span>
+                </div>
+            </div>
+
+            <div class="main__queue"></div>
+        </main>
+    </div>
+    <script src="js/burger.js"></script>
+</body>
+</html>
